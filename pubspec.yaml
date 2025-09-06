@@ -1,0 +1,34 @@
+  name: inv
+  description: "A new Flutter project."
+  publish_to: 'none'
+
+  version: 1.0.0+1
+
+  environment:
+    sdk: '>=2.17.0 <4.0.0' # Ensure SDK supports super-parameters
+
+  dependencies:
+    flutter:
+      sdk: flutter
+    hive: ^2.2.3
+    hive_flutter: ^1.1.0
+    image_picker: ^1.0.4
+    path_provider: ^2.0.15
+    pdf: ^3.10.4
+    printing: ^5.11.1
+    share_plus: ^7.0.2
+    intl: ^0.18.1
+    google_fonts: ^4.0.4
+    flutter_barcode_scanner: ^2.0.0
+    flutter_local_notifications: ^17.2.1+1 # Replaced local_notifications
+    uuid: ^3.0.7
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+    hive_generator: ^2.0.0
+    build_runner: ^2.3.3
+    flutter_lints: ^2.0.0
+
+  flutter:
+    uses-material-design: true
